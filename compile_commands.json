@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/uthman/C Projects/Feyce/build",
+  "command": "/usr/bin/clang -I\"/home/uthman/C Projects/Feyce/include\" -Wall -Wextra -Wpedantic -o CMakeFiles/feyce_app.dir/src/feyce.c.o -c \"/home/uthman/C Projects/Feyce/src/feyce.c\"",
+  "file": "/home/uthman/C Projects/Feyce/src/feyce.c",
+  "output": "/home/uthman/C Projects/Feyce/build/CMakeFiles/feyce_app.dir/src/feyce.c.o"
+}
+]
