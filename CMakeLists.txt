@@ -1,3 +1,6 @@
+# Copyright (c) 2026 fara-bia
+# SPDX-License-Identifier: Apache-2.0
+
 cmake_minimum_required(VERSION 3.15...4.4)
 project(Feyce VERSION 1.0.0 LANGUAGES C)
 
