@@ -43,7 +43,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "message-v1"
     backtrace:
@@ -102,7 +101,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -145,7 +143,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -178,7 +175,6 @@ events:
         - "/home/uthman/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
@@ -249,7 +245,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -292,7 +287,6 @@ events:
         - "/home/uthman/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
@@ -341,7 +335,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -384,7 +377,6 @@ events:
         - "/home/uthman/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
@@ -433,7 +425,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -476,7 +467,6 @@ events:
         - "/home/uthman/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
@@ -525,7 +515,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -568,7 +557,6 @@ events:
         - "/home/uthman/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
@@ -623,7 +611,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -669,7 +656,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -711,7 +697,6 @@ events:
         - "/home/uthman/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
@@ -780,7 +765,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -846,7 +830,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "find-v1"
     backtrace:
@@ -894,7 +877,6 @@ events:
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
         - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
-        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -904,8 +886,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4"
-      binary: "/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4"
+      source: "/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS"
+      binary: "/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -914,10 +896,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4'
+        Change Dir: '/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_7afc1
-        [1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_59afa
+        [1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang version 22.1.8 (Fedora 22.1.8-1.fc44)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -930,7 +912,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang-22" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4" -v "-fcoverage-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4" -resource-dir /usr/bin/../lib/clang/22 -dependency-file CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/bin/../lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+         "/usr/bin/clang-22" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS" -v "-fcoverage-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS" -resource-dir /usr/bin/../lib/clang/22 -dependency-file CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/bin/../lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-redhat-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"
         ignoring nonexistent directory "/include"
@@ -940,7 +922,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -o cmTC_7afc1   && :
+        [2/2] : && /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -o cmTC_59afa   && :
         clang version 22.1.8 (Fedora 22.1.8-1.fc44)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -952,7 +934,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7afc1 /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/22/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_59afa /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/22/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         GNU ld version 2.46-3.fc44
         
       exitCode: 0
@@ -986,10 +968,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4']
+        ignore line: [Change Dir: '/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_7afc1]
-        ignore line: [[1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_59afa]
+        ignore line: [[1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 22.1.8 (Fedora 22.1.8-1.fc44)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1005,7 +987,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-22" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4" -v "-fcoverage-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-wtkkN4" -resource-dir /usr/bin/../lib/clang/22 -dependency-file CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/bin/../lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/usr/bin/clang-22" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS" -v "-fcoverage-compilation-dir=/home/uthman/C Projects/Feyce/build/CMakeFiles/CMakeScratch/TryCompile-ASvrGS" -resource-dir /usr/bin/../lib/clang/22 -dependency-file CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/bin/../lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-redhat-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -1015,7 +997,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang  -v -Wl -v CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -o cmTC_7afc1   && :]
+        ignore line: [[2/2] : && /usr/bin/clang  -v -Wl -v CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -o cmTC_59afa   && :]
         ignore line: [clang version 22.1.8 (Fedora 22.1.8-1.fc44)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1030,7 +1012,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7afc1 /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/22/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_59afa /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/bin/../lib/clang/22/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -1040,7 +1022,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7afc1] ==> ignore
+          arg [cmTC_59afa] ==> ignore
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
@@ -1052,7 +1034,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7afc1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_59afa.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1093,4 +1075,325 @@ events:
     message: |
       Running the C compiler's linker: "/usr/bin/ld" "-v"
       GNU ld version 2.46-3.fc44
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "SDL3"
+    configs:
+      -
+        filename: "SDL3.cps"
+        kind: "cps"
+      -
+        filename: "sdl3.cps"
+        kind: "cps"
+      -
+        filename: "SDL3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "sdl3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SDL3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/lib/x86_64-redhat-linux-gnu/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/lib/x86_64-redhat-linux-gnu/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/lib64/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/lib64/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/C Projects/Feyce/build/CMakeFiles/pkgRedirects/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/lib/x86_64-redhat-linux-gnu/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/lib/x86_64-redhat-linux-gnu/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/lib64/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/lib64/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.cargo/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/lib/x86_64-redhat-linux-gnu/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/lib/x86_64-redhat-linux-gnu/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/lib64/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/lib64/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/.local/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/lib/x86_64-redhat-linux-gnu/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/lib/x86_64-redhat-linux-gnu/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/lib64/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/lib64/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/uthman/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/x86_64-redhat-linux-gnu/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/x86_64-redhat-linux-gnu/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cmake/SDL3_ttf/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cmake/SDL3_ttf/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cmake/SDL3_image/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cmake/SDL3_image/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/SDL3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/sdl3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/x86_64-redhat-linux-gnu/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/x86_64-redhat-linux-gnu/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/SDL3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/sdl3.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib64/cmake/SDL3/SDL3Config.cmake"
+      mode: "config"
+      version: "3.4.12"
+    search_context:
+      ENV{PATH}:
+        - "/home/uthman/.cargo/bin"
+        - "/home/uthman/.local/bin"
+        - "/home/uthman/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/uthman/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
 ...
