@@ -1,3 +1,0 @@
-/home/uthman/C Projects/Feyce/build/CMakeFiles/FeyceGUI.dir
-/home/uthman/C Projects/Feyce/build/CMakeFiles/edit_cache.dir
-/home/uthman/C Projects/Feyce/build/CMakeFiles/rebuild_cache.dir
