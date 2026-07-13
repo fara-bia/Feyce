@@ -13,5 +13,5 @@ add_executable(${APP_NAME}
 )
 
 if(CMAKE_C_COMPILER_ID STREQUAL "Clang")
-    target_compile_options(${APP_NAME} PRIVATE -Wall -Wextra -Wpedantic)
+    target_compile_options(${APP_NAME} PRIVATE -O3 -Wall -Wextra -Wpedantic)
 endif()

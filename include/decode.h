@@ -6,6 +6,6 @@
 #ifndef DECODE
 #define DECODE
 
-void decode_fen(char* fen, char* board);
+void decode_fen(char* fen, int* board);
 
 #endif

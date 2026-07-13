@@ -6,7 +6,7 @@
 #include "mutuals.h"
 #include "decode.h"
 
-void decode_fen (char* fen, char* board) {
+void decode_fen (char* fen, int* board) {
     int i = 0;
     int i_2;
     repeat(64) {
