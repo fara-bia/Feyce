@@ -16,11 +16,11 @@ int main (int argc, char* argv[]) {
     char* fen = "";
 
     switch (argc) {
-        case 2:
+        case 3:
             fen = argv[1];
             greed = 10000;
             break;
-        case 3:
+        case 4:
             fen = argv[1];
             greed = atoi(argv[2]);
             break;
