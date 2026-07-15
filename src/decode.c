@@ -27,4 +27,10 @@ void decode_fen (char* fen, int* board) {
             break;
         }
     }
+    i++;
+    if (fen[i] == 'w') {
+        board[0] = 0;
+    } else if (fen[i] == 'b'){
+        board[0] = 1;
+    }
 }
