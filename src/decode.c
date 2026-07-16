@@ -33,4 +33,5 @@ void decode_fen (char* fen, int* board) {
     } else if (fen[i] == 'b'){
         board[0] = 1;
     }
+    i++;
 }
