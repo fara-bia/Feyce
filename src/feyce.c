@@ -18,17 +18,18 @@ int main (int argc, char* argv[]) {
     switch (argc) {
         case 3:
             fen = argv[1];
+            depth = atoi(argv[2]);
             greed = 10000;
             break;
         case 4:
             fen = argv[1];
-            greed = atoi(argv[2]);
+            depth = atoi(argv[2]);
+            greed = atoi(argv[3]);
             break;
         default:
             printf("Invalid arguments!\n");
             return 1;
     }
-    depth = atoi(argv[2]);
 
     int boardsize = /* active color */ (1) + /* piece placement */ (64) + /* castling availability */ (2) + (2) \
         + /* en passant target square */ (1);

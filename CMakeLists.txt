@@ -10,6 +10,8 @@ include_directories(include)
 
 add_executable(${APP_NAME}
     src/feyce.c
+    src/decode.c
+    src/square_rep.c
 )
 
 if(CMAKE_C_COMPILER_ID STREQUAL "Clang")
