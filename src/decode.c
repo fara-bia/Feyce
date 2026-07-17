@@ -173,35 +173,16 @@ int piece_int_rep (char piece) {
 }
 
 static void flip_board (int* board) {
-    int i = 1, p1, p2, p3, p4, p5, p6, p7, p8;
+    int i = 1;
 
     repeat(4) {
-        p1 = board[i];
-        p2 = board[i + 1];
-        p3 = board[i + 2];
-        p4 = board[i + 3];
-        p5 = board[i + 4];
-        p6 = board[i + 5];
-        p7 = board[i + 6];
-        p8 = board[i + 7];
+        int target_row = 58 - i;
 
-        board[i + 7] = board[65 - i];
-        board[i + 6] = board[64 - i];
-        board[i + 5] = board[63 - i];
-        board[i + 4] = board[62 - i];
-        board[i + 3] = board[61 - i];
-        board[i + 2] = board[60 - i];
-        board[i + 1] = board[59 - i];
-        board[i] = board[58 - i];
-
-        board[65 - i] = p8;
-        board[64 - i] = p7;
-        board[63 - i] = p6;
-        board[62 - i] = p5;
-        board[61 - i] = p4;
-        board[60 - i] = p3;
-        board[59 - i] = p2;
-        board[58 - i] = p1;
+        for (int j = 0; j < 8; j++) {
+            int temp = board[i + j];
+            board[i + j] = board[target_row + j];
+            board[target_row + j] = temp;
+        }
 
         i += 8;
     }
