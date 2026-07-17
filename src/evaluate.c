@@ -5,6 +5,12 @@
 #include "evaluate.h"
 
 int evaluate_board (char* board) {
+    int piece_val; // it seems to go further
+    if (board[0] == 1) {
+
+    } else {
+
+    }
 
     return 0;
 }

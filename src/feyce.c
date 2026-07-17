@@ -8,6 +8,8 @@
 #include "mutuals.h"
 #include "decode.h"
 
+#define DEFAULT_GREED 1000000
+
 // <FEN> <Depth> <Greed>
 int main (int argc, char* argv[]) {
     printf("You have run %s\n", argv[0]);
@@ -19,7 +21,7 @@ int main (int argc, char* argv[]) {
         case 3:
             fen = argv[1];
             depth = atoi(argv[2]);
-            greed = 10000;
+            greed = DEFAULT_GREED;
             break;
         case 4:
             fen = argv[1];
@@ -39,14 +41,14 @@ int main (int argc, char* argv[]) {
         printf("Your board is successfully received.\n");
     }
 
-    int* debug = board;
+    /* int* debug = board;
     repeat(70) {
         printf("debug: %d\n", *debug);
         debug++;
     }
     printf("halfmove: %d\n", halfmove);
     printf("fullmove: %d\n", fullmove);
-    printf("depth: %d, greed: %d\n", depth, greed);
+    printf("depth: %d, greed: %d\n", depth, greed); */
 
     return 0;
 }
