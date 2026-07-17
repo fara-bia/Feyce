@@ -12,7 +12,7 @@
 int main (int argc, char* argv[]) {
     printf("You have run %s\n", argv[0]);
 
-    int depth, greed;
+    int depth, greed, halfmove, fullmove;
     char* fen = "";
 
     switch (argc) {
@@ -30,7 +30,7 @@ int main (int argc, char* argv[]) {
     }
 
     int boardsize = /* turn */ (1) + /* board */ (64) + /* castling */ (2) + (2) \
-        + /* en passant */ (8) + (8) + /* pawns first move */ (8) + (8);
+        + /* en passant */ (1);
     int board[boardsize];
 
     // decode_fen(fen, board);
