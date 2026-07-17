@@ -28,6 +28,7 @@ int main (int argc, char* argv[]) {
             printf("Invalid arguments!\n");
             return 1;
     }
+    depth = atoi(argv[2]);
 
     int boardsize = /* active color */ (1) + /* piece placement */ (64) + /* castling availability */ (2) + (2) \
         + /* en passant target square */ (1);
@@ -39,8 +40,12 @@ int main (int argc, char* argv[]) {
 
     int* debug = board;
     repeat(70) {
-        printf("debug: %d", *debug);
+        printf("debug: %d\n", *debug);
         debug++;
     }
+    printf("halfmove: %d\n", halfmove);
+    printf("fullmove: %d\n", fullmove);
+    printf("depth: %d, greed: %d\n", depth, greed);
+
     return 0;
 }
