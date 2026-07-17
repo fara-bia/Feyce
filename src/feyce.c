@@ -29,11 +29,11 @@ int main (int argc, char* argv[]) {
             return 1;
     }
 
-    int boardsize = /* turn */ (1) + /* board */ (64) + /* castling */ (2) + (2) \
-        + /* en passant */ (1);
+    int boardsize = /* active color */ (1) + /* piece placement */ (64) + /* castling availability */ (2) + (2) \
+        + /* en passant target square */ (1);
     int board[boardsize];
 
-    // decode_fen(fen, board);
+    // decode_fen(fen, board, &halfmove, &fullmove);
 
     printf("Your board is successfully received.\n");
 
