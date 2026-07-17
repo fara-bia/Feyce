@@ -6,7 +6,7 @@
 #ifndef DECODE
 #define DECODE
 
-void decode_fen(char* fen, int* board, int* halfmove, int* fullmove);
+int decode_fen(char* fen, int* board, int* halfmove, int* fullmove);
 int piece_int_rep(char piece);
 
 #endif

@@ -3,13 +3,14 @@
     SPDX-License-Identifier: Apache-2.0
  */
 
+#include <stdlib.h>
 #include "mutuals.h"
 #include "square_rep.h"
 #include "decode.h"
 
 static void flip_board(int* board);
 
-void decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
+int decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
     int fen_i = 0;
     int board_i = 1;
 
@@ -103,7 +104,11 @@ void decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
 
         fen_i += 2;
     }
-    //// I'll continue later
+
+    *halfmove = atoi(hfmove);
+    *fullmove = atoi(fmove);
+
+    return 1;
 }
 
 int piece_int_rep (char piece) {
@@ -166,4 +171,6 @@ static void flip_board (int* board) {
 
         i++;
     }
+
+    return;
 }

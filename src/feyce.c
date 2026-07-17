@@ -33,9 +33,14 @@ int main (int argc, char* argv[]) {
         + /* en passant target square */ (1);
     int board[boardsize];
 
-    // decode_fen(fen, board, &halfmove, &fullmove);
+    if(decode_fen(fen, board, &halfmove, &fullmove)) {
+        printf("Your board is successfully received.\n");
+    }
 
-    printf("Your board is successfully received.\n");
-
+    int* debug = board;
+    repeat(70) {
+        printf("debug: %d", *debug);
+        debug++;
+    }
     return 0;
 }
