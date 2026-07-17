@@ -21,6 +21,7 @@ void decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
                     board[board_i] = piece_int_rep(' ');
                     board_i++;
                 }
+                board_i -= 1;
             } else {
                 board[board_i] = piece_int_rep(fen[fen_i]);
             }
@@ -37,10 +38,12 @@ void decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
 
     // castling availability
     fen_i += 2;
+    board[65] = board[66] = board[67] = board[68] = 0;
+
     if (fen[fen_i] == '-') {
+        fen_i++;
         goto avail_end;
     }
-    board[65] = board[66] = board[67] = board[68] = 0;
 
     while (1) {
         if (fen[fen_i] == ' ')
@@ -68,6 +71,8 @@ void decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
     fen_i++;
     if (fen[fen_i] == '-') {
         board[69] = 0;
+
+        fen_i++;
     } else {
         char piece[3];
 
@@ -76,9 +81,29 @@ void decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
         piece[2] = '\0';
 
         board[69] = square_to_int(piece);
+
+        fen_i+=2;
     }
 
     flip_board(board);
+
+    // halfmove and fullmove
+    fen_i++;
+    char hfmove[3];
+    char fmove[3];
+
+    if (fen[fen_i + 1] == ' ') {
+        hfmove[0] = '0';
+        hfmove[1] = fen[fen_i];
+
+        fen_i++;
+    } else {
+        hfmove[0] = fen[fen_i];
+        hfmove[1] = fen[fen_i + 1];
+
+        fen_i += 2;
+    }
+    //// I'll continue later
 }
 
 int piece_int_rep (char piece) {
