@@ -13,10 +13,12 @@
 #define QUEENVAL 900
 
 static int piece_val(int piece, int greed, int turn);
+static int checkpiece(int piece);
 
+/* checks for material, development and proximity */
 int evaluate_board (int* board, int greed) {
     int turn = board[0], i = 1;
-    int material_val = 0, development, proximity;
+    int material_val = 0, development = 0, proximity = 0;
 
     // material value
     repeat(64) {
@@ -25,8 +27,21 @@ int evaluate_board (int* board, int greed) {
         i++;
     }
 
-    return material_val;
-    // return 0;
+    /* development */
+
+
+    /* proximity (unfinished) */
+    i = 1;
+    repeat(64) {
+        if (!checkpiece(board[i])) {
+            continue;
+        }
+        proximity +=
+
+        i++;
+    }
+
+    return 0;
 }
 
 static int piece_val (int piece, int greed, int turn) {
@@ -83,4 +98,15 @@ static int piece_val (int piece, int greed, int turn) {
     }
 
     return return_val;
+}
+
+static int checkpiece (int piece) {
+    if (piece >= WHITE_PAWN || piece <= WHITE_KING) return 1;
+    else return 0;
+}
+
+static int calc_dist_betw_squares (int square1, int square2) {
+    int sqdistance;
+
+    return sqdistance;
 }

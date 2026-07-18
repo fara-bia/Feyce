@@ -42,16 +42,10 @@ int main (int argc, char* argv[]) {
         printf("Your board is successfully received.\n");
     }
 
-    /* int* debug = board;
-    repeat(70) {
-        printf("debug: %d\n", *debug);
-        debug++;
+    /* temporary */
+    if (evaluate_board(board, greed) != 0) {
+        return 1;
     }
-    printf("halfmove: %d\n", halfmove);
-    printf("fullmove: %d\n", fullmove);
-    printf("depth: %d, greed: %d\n", depth, greed); */
-
-    // printf("material value for %d is: %d\n", board[0], evaluate_board(board, greed));
 
     return 0;
 }
