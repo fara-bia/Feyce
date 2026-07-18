@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "evaluate.h"
 #include "mutuals.h"
 #include "decode.h"
 
@@ -49,6 +50,8 @@ int main (int argc, char* argv[]) {
     printf("halfmove: %d\n", halfmove);
     printf("fullmove: %d\n", fullmove);
     printf("depth: %d, greed: %d\n", depth, greed); */
+
+    // printf("material value for %d is: %d\n", board[0], evaluate_board(board, greed));
 
     return 0;
 }

@@ -36,11 +36,11 @@ int decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
     }
     // active color
     fen_i++;
-    board[0] = (fen[fen_i] == 'w' ? 1 : 0);
+    board[0] = (fen[fen_i] == 'w' ? WHITE_TURN : BLACK_TURN);
 
     // castling availability
     fen_i += 2;
-    board[65] = board[66] = board[67] = board[68] = 0;
+    board[65] = board[66] = board[67] = board[68] = EMPTY_SQUARE;
 
     if (fen[fen_i] == '-') {
         fen_i++;
@@ -72,7 +72,7 @@ int decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
     // en passant target square
     fen_i++;
     if (fen[fen_i] == '-') {
-        board[69] = 0;
+        board[69] = EMPTY_SQUARE;
 
         fen_i++;
     } else {
@@ -128,44 +128,44 @@ int piece_int_rep (char piece) {
     int piece_rep;
 
     switch (piece) {
-        case 'p': // Black Pawn
-            piece_rep = 1;
+        case 'p':
+            piece_rep = BLACK_PAWN;
             break;
-        case 'n': // Black Knight
-            piece_rep = 2;
+        case 'n':
+            piece_rep = BLACK_KNIGHT;
             break;
-        case 'b': // Black Bishop
-            piece_rep = 3;
+        case 'b':
+            piece_rep = BLACK_BISHOP;
             break;
-        case 'r': // Black Rook
-            piece_rep = 4;
+        case 'r':
+            piece_rep = BLACK_ROOK;
             break;
-        case 'q': // Black Queen
-            piece_rep = 5;
+        case 'q':
+            piece_rep = BLACK_QUEEN;
             break;
-        case 'k': // Black King
-            piece_rep = 6;
+        case 'k':
+            piece_rep = BLACK_KING;
             break;
-        case 'P': // White Pawn
-            piece_rep = 7;
+        case 'P':
+            piece_rep = WHITE_PAWN;
             break;
-        case 'N': // White Knight
-            piece_rep = 8;
+        case 'N':
+            piece_rep = WHITE_KNIGHT;
             break;
-        case 'B': // White Bishop
-            piece_rep = 9;
+        case 'B':
+            piece_rep = WHITE_BISHOP;
             break;
-        case 'R': // White Rook
-            piece_rep = 10;
+        case 'R':
+            piece_rep = WHITE_ROOK;
             break;
-        case 'Q': // White Queen
-            piece_rep = 11;
+        case 'Q':
+            piece_rep = WHITE_QUEEN;
             break;
-        case 'K': // White King
-            piece_rep = 12;
+        case 'K':
+            piece_rep = WHITE_KING;
             break;
         default:
-            piece_rep = 0;
+            piece_rep = EMPTY_SQUARE;
             break;
     }
 
