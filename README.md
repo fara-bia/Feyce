@@ -8,3 +8,6 @@ Initialization steps:
 2. Open your terminal (bash, powershell, cmd etc.), make it point to the folder in which you downloaded the executable.
 3. Usage: ./Feyce < FEN Code > < Depth > < Greed (1000000 by default) > (omit ./ on cmd)
 ____________________________________________________________
+
+Example Usage:
+./FeyceBot "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1" 6
