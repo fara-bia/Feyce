@@ -20,7 +20,7 @@ static int getrowindex(int square);
 static int getcolumnindex(int square);
 
 /* checks for material, development and proximity */
-double evaluate_board (int* board, int greed) {
+int evaluate_board (int* board, int greed) {
     int turn = board[0], i = 1;
     int material_val = 0, development = 0, proximity = 0;
 

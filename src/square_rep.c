@@ -16,4 +16,5 @@ int square_to_int (char* square) {
 
 char int_to_square (int square) {
 
+    return 0; // temporary
 }

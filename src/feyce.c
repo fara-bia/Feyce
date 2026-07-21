@@ -15,7 +15,7 @@
 int main (int argc, char* argv[]) {
     printf("You have run %s\n", argv[0]);
 
-    int depth, greed, halfmove, fullmove;
+    int depth, greed, halfmove, fullmove, turn, eval_outp;
     char* fen = "";
 
     switch (argc) {
@@ -42,10 +42,12 @@ int main (int argc, char* argv[]) {
         printf("Your board is successfully received.\n");
     }
 
+    turn = board[0];
+
     /* temporary */
-    if (evaluate_board(board, greed) != 0) {
-        return 1;
-    }
+    eval_outp = evaluate_board(board, greed);
+
+    printf("Evaluation result for %s is: %d\n", turn == WHITE_TURN ? "white" : "black", eval_outp);
 
     return 0;
 }

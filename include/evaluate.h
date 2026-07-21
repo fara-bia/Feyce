@@ -5,6 +5,6 @@
 #ifndef EVALUATE
 #define EVALUATE
 
-double evaluate_board(int* board, int greed);
+int evaluate_board(int* board, int greed);
 
 #endif
