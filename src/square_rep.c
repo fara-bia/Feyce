@@ -3,8 +3,8 @@
     SPDX-License-Identifier: Apache-2.0
  */
 
-#include "mutuals.h"
 #include "square_rep.h"
+#include "mutuals.h"
 
 int square_to_int (char* square) {
     int index;

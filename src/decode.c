@@ -3,10 +3,10 @@
     SPDX-License-Identifier: Apache-2.0
  */
 
+#include "decode.h"
 #include <stdlib.h>
 #include "mutuals.h"
 #include "square_rep.h"
-#include "decode.h"
 
 static void flip_board(int* board);
 
