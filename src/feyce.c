@@ -49,5 +49,15 @@ int main (int argc, char* argv[]) {
 
     printf("Evaluation result for %s is: %d\n", turn == WHITE_TURN ? "white" : "black", eval_outp);
 
+    #ifdef DEBUG
+    int debugindex = 1;
+    repeat(64) {
+        printf("square %d of the board contains: %d\n", debugindex, board[debugindex]);
+        debugindex++;
+    }
+    printf("halfmove: %d\tfullmove: %d\n", halfmove, fullmove);
+    printf("en passant square: %d\n", board[69]);
+    #endif
+
     return 0;
 }
