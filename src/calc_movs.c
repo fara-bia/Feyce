@@ -6,6 +6,6 @@
 #include "calc_movs.h"
 #include "mutuals.h"
 
-void calculate_moves (int* psbmoves) {
-
+void calculate_moves (int* board, int* psbmoves, int turn) {
+    1==1;
 }

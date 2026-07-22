@@ -6,6 +6,6 @@
 #ifndef CALC_MOVS
 #define CALC_MOVS
 
-void calculate_moves(int* psbmoves);
+void calculate_moves(int* board, int* psbmoves, int turn);
 
 #endif

@@ -5,6 +5,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "calc_movs.h"
 #include "evaluate.h"
 #include "mutuals.h"
 #include "decode.h"
@@ -13,7 +14,7 @@
 int main (int argc, char* argv[]) {
     printf("You have run %s\n", argv[0]);
 
-    int depth, halfmove, fullmove, turn, eval_outp, psbmoves[218];
+    int depth, halfmove, fullmove, turn, eval_outp, psbmoves[218] = {0};
     char* fen = "";
 
     switch (argc) {
@@ -36,12 +37,12 @@ int main (int argc, char* argv[]) {
 
     turn = board[0];
 
-    /* temporary */
-    eval_outp = evaluate_board(board);
 
-    printf("Evaluation result for %s is: %d\n", turn == WHITE_TURN ? "white" : "black", eval_outp);
+    calculate_moves(board, psbmoves, turn);
 
     #ifdef DEBUG
+    eval_outp = evaluate_board(board);
+    printf("Evaluation result for %s is: %d\n", turn == WHITE_TURN ? "white" : "black", eval_outp);
     int debugindex = 1;
     repeat(64) {
         printf("square %d of the board contains: %d\n", debugindex, board[debugindex]);
