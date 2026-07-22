@@ -200,7 +200,7 @@ static void calc_development (int piece, int square, int oppking, int* developme
             break;
         case WHITE_BISHOP:
         case BLACK_BISHOP:
-            if (square % 2 == 0) { // light squared bishop
+            if ((getrowindex(square) + getcolumnindex(square)) % 2 == 1) { // light squared bishop
                 dist += calc_dist_betw_squares(square, 10);
                 dist += calc_dist_betw_squares(square, 19);
                 dist += calc_dist_betw_squares(square, 28);
