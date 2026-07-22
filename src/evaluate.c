@@ -2,6 +2,7 @@
     Copyright (c) 2026 fara-bia
     SPDX-License-Identifier: Apache-2.0
  */
+
 #include "evaluate.h"
 #include "mutuals.h"
 #include <math.h>
@@ -12,8 +13,9 @@
 #define BISHOPVAL 300
 #define ROOKVAL 500
 #define QUEENVAL 900
+#define KINGVAL 400
 
-static int piece_val(int piece, int greed, int turn);
+static int piece_val(int piece, int turn);
 static int checkpiece(int piece, int turn);
 static void calc_development(int piece, int square, int oppking, int* development);
 static int calc_dist_betw_squares(int square1, int square2);
@@ -21,13 +23,13 @@ static int getrowindex(int square);
 static int getcolumnindex(int square);
 
 /* checks for material, development and proximity */
-int evaluate_board (int* board, int greed) {
+int evaluate_board (int* board) {
     int turn = board[0], i = 1;
     int material_val = 0, development = 0, proximity = 0;
 
     // material value
     repeat(64) {
-        material_val += piece_val(board[i], greed, turn);
+        material_val += piece_val(board[i], turn);
 
         i++;
     }
@@ -76,7 +78,7 @@ int evaluate_board (int* board, int greed) {
     return (material_val + development + proximity);
 }
 
-static int piece_val (int piece, int greed, int turn) {
+static int piece_val (int piece, int turn) {
     int return_val;
 
     if (turn == WHITE_TURN) {
@@ -97,7 +99,7 @@ static int piece_val (int piece, int greed, int turn) {
                 return_val = QUEENVAL;
                 break;
             case WHITE_KING:
-                return_val = greed;
+                return_val = KINGVAL;
                 break;
             default:
                 return_val = 0;
@@ -121,7 +123,7 @@ static int piece_val (int piece, int greed, int turn) {
                 return_val = QUEENVAL;
                 break;
             case BLACK_KING:
-                return_val = greed;
+                return_val = KINGVAL;
                 break;
             default:
                 return_val = 0;

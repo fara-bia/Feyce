@@ -3,9 +3,9 @@
     SPDX-License-Identifier: Apache-2.0
  */
 
-#ifndef EVALUATE
-#define EVALUATE
+#ifndef CALC_MOVS
+#define CALC_MOVS
 
-int evaluate_board(int* board);
+void calculate_moves(int* psbmoves);
 
 #endif
