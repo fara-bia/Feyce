@@ -6,7 +6,7 @@ This is the backend version of Feyce that works in terminal.
 Initialization steps:
 1. Download the executable file appropriate to your operating system.
 2. Open your terminal (bash, powershell, cmd etc.), make it point to the folder in which you downloaded the executable.
-3. Usage: ./Feyce < FEN Code > < Depth > < Greed (1000000 by default) > (omit ./ on cmd)
+3. Usage: ./Feyce < FEN Code > < Depth > (omit ./ on cmd)
 ____________________________________________________________
 
 Example Usage:
