@@ -4,6 +4,7 @@
  */
 
 #include "evaluate.h"
+#include "decode.h"
 #include "mutuals.h"
 #include <math.h>
 
@@ -16,11 +17,7 @@
 #define KINGVAL 400
 
 static int piece_val(int piece, int turn);
-static int checkpiece(int piece, int turn);
 static void calc_development(int piece, int square, int oppking, int* development);
-static int calc_dist_betw_squares(int square1, int square2);
-static int getrowindex(int square);
-static int getcolumnindex(int square);
 
 /* checks for material, development and proximity */
 int evaluate_board (int* board) {
@@ -132,16 +129,6 @@ static int piece_val (int piece, int turn) {
     }
 
     return return_val;
-}
-
-static int checkpiece (int piece, int turn) {
-    if (turn == WHITE_TURN) {
-        if (piece >= BLACK_PAWN && piece <= BLACK_KING) return 0;
-        else return 1;
-    } else {
-        if (piece >= WHITE_PAWN && piece <= WHITE_KING) return 0;
-        else return 1;
-    }
 }
 
 static void calc_development (int piece, int square, int oppking, int* development) {
@@ -257,7 +244,17 @@ static void calc_development (int piece, int square, int oppking, int* developme
     }
 }
 
-static int calc_dist_betw_squares (int square1, int square2) { //euclidian
+int checkpiece (int piece, int turn) {
+    if (turn == WHITE_TURN) {
+        if (piece >= BLACK_PAWN && piece <= BLACK_KING) return 0;
+        else return 1;
+    } else {
+        if (piece >= WHITE_PAWN && piece <= WHITE_KING) return 0;
+        else return 1;
+    }
+}
+
+int calc_dist_betw_squares (int square1, int square2) { //euclidian
     int sqdistance, row1, row2, column1, column2;
 
     row1 = getrowindex(square1);
@@ -270,10 +267,10 @@ static int calc_dist_betw_squares (int square1, int square2) { //euclidian
     return sqdistance;
 }
 
-static int getrowindex (int square) {
+int getrowindex (int square) {
     return ((square - 1) / 8) + 1;
 }
 
-static int getcolumnindex (int square) {
+int getcolumnindex (int square) {
     return ((square - 1) % 8) + 1;
 }

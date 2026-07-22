@@ -10,6 +10,8 @@
 #include "mutuals.h"
 #include "decode.h"
 
+// #define DEBUG
+
 // <FEN> <Depth>
 int main (int argc, char* argv[]) {
     printf("You have run %s\n", argv[0]);
@@ -38,7 +40,7 @@ int main (int argc, char* argv[]) {
     turn = board[0];
 
 
-    calculate_moves(board, psbmoves, turn);
+    // calculate_moves(board, psbmoves, turn);
 
     #ifdef DEBUG
     eval_outp = evaluate_board(board);

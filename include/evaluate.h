@@ -7,5 +7,9 @@
 #define EVALUATE
 
 int evaluate_board(int* board);
+int checkpiece(int piece, int turn);
+int calc_dist_betw_squares(int square1, int square2);
+int getrowindex(int square);
+int getcolumnindex(int square);
 
 #endif

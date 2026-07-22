@@ -7,5 +7,7 @@
 #define CALC_MOVS
 
 void calculate_moves(int* board, int* psbmoves, int turn);
+int checkforcheck(int* board, int turn);
+int checkforcheckmate(int* board);
 
 #endif

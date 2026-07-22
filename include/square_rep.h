@@ -7,6 +7,5 @@
 #define SQUARE_REP
 
 int square_to_int(char* square);
-char int_to_square(int square);
 
 #endif
