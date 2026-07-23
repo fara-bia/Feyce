@@ -92,7 +92,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row + i, column + i);
             if (board[spare] == BLACK_BISHOP || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -103,7 +103,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row - i, column + i);
             if (board[spare] == BLACK_BISHOP || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -114,7 +114,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row - i, column - i);
             if (board[spare] == BLACK_BISHOP || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -125,7 +125,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row + i, column - i);
             if (board[spare] == BLACK_BISHOP || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -138,7 +138,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row + i, column);
             if (board[spare] == BLACK_ROOK || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -149,7 +149,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row - i, column);
             if (board[spare] == BLACK_ROOK || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -160,7 +160,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row, column + i);
             if (board[spare] == BLACK_ROOK || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -171,7 +171,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row, column - i);
             if (board[spare] == BLACK_ROOK || board[spare] == BLACK_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -240,7 +240,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row + i, column + i);
             if (board[spare] == WHITE_BISHOP || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -251,7 +251,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row - i, column + i);
             if (board[spare] == WHITE_BISHOP || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -262,7 +262,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row - i, column - i);
             if (board[spare] == WHITE_BISHOP || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -273,7 +273,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row + i, column - i);
             if (board[spare] == WHITE_BISHOP || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -286,7 +286,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row + i, column);
             if (board[spare] == WHITE_ROOK || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -297,7 +297,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row - i, column);
             if (board[spare] == WHITE_ROOK || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -308,7 +308,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row, column + i);
             if (board[spare] == WHITE_ROOK || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
@@ -319,7 +319,7 @@ int checkforcheck (int* board, int turn) {
             spare = squareval(row, column - i);
             if (board[spare] == WHITE_ROOK || board[spare] == WHITE_QUEEN) {
                 return 1;
-            } else if (board[i] != EMPTY_SQUARE) {
+            } else if (board[spare] != EMPTY_SQUARE) {
                 break;
             }
 
