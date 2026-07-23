@@ -331,7 +331,7 @@ int checkforcheck (int* board, int turn) {
 }
 
 int is_overflow (int row, int column) {
-    if (!((row >= 1 && row <= 8) && (column >= 1 && column <= 8))) return 0;
+    if ((row >= 1 && row <= 8) && (column >= 1 && column <= 8)) return 0;
     else return 1;
 }
 
