@@ -8,6 +8,6 @@
 
 void calculate_moves(int* board, int* psbmoves, int turn);
 int checkforcheck(int* board, int turn);
-int checkforcheckmate(int* board);
+int is_overflow(int row, int column);
 
 #endif

@@ -6,12 +6,23 @@
 #include "calc_movs.h"
 #include "evaluate.h"
 #include "mutuals.h"
-#include <stdlib.h>
 
 static int squareval(int row, int column);
+static void add_possible_move(int* psbmoves, int* board, int* psbcounter, int sq1, int sq2row, int sq2column, int turn);
 
 void calculate_moves (int* board, int* psbmoves, int turn) {
-
+    int i = 1, psbcounter = 0;
+    repeat(64) {
+        // to be continued
+        /*
+         * Make another function that determines possible moves of a piece, inputting;
+         * piece type, square that its on
+         * use add_possible_function to use it
+         * and then try to implement each move separately
+         * if there's still a check after the move, eliminate that possible move from the list
+         * if there's no possible move; it's checkmate, terminate
+         */
+    }
 }
 
 int checkforcheck (int* board, int turn) {
@@ -319,12 +330,34 @@ int checkforcheck (int* board, int turn) {
     return 0;
 }
 
-int checkforcheckmate (int* board) {
-
+int is_overflow (int row, int column) {
+    if (!((row >= 1 && row <= 8) && (column >= 1 && column <= 8))) return 0;
+    else return 1;
 }
 
 static int squareval (int row, int column) {
-    int returnval = (((row - 1) * 8) + column);
-    if (!(returnval >= 1 && returnval <= 64)) returnval = NULL_SQUARE;
+    int returnval;
+
+    if (is_overflow(row, column)) returnval = NULL_SQUARE;
+    else returnval = (((row - 1) * 8) + column);
+
     return returnval;
+}
+
+static void add_possible_move (int* psbmoves, int* board, int* psbcounter, int sq1, int sq2row, int sq2column, int turn) {
+    int sq2 = squareval(sq2row, sq2column);
+    if (sq2 == NULL_SQUARE) return; // do not move outside board
+    if (!checkpiece(sq1, turn)) return; // do not move enemy pieces
+    if (checkpiece(sq2, turn)) return; // do not eat your own pieces
+
+    if (turn == WHITE_TURN) { // do not eat enemy king
+        if (board[sq2] == BLACK_KING) return;
+    } else {
+        if (board[sq2] == WHITE_KING) return;
+    }
+
+    psbmoves[*psbcounter++] = sq1;
+    psbmoves[*psbcounter++] = sq2;
+
+    return;
 }
