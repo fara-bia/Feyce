@@ -30,7 +30,7 @@ int main (int argc, char* argv[]) {
     }
 
     int boardsize = /* active color */ (1) + /* piece placement */ (64) + /* castling availability */ (2) + (2) \
-        + /* en passant target square */ (1);
+        + /* en passant target square */ (1) + /* null square */ (1);
     int board[boardsize];
 
     if(decode_fen(fen, board, &halfmove, &fullmove)) {

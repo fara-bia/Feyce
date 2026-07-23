@@ -121,6 +121,8 @@ int decode_fen (char* fen, int* board, int* halfmove, int* fullmove) {
 
     flip_board(board);
 
+    board[70] = NULL_VAL;
+
     return 1;
 }
 

@@ -23,6 +23,8 @@
 #define WHITE_QUEEN 11
 #define WHITE_KING 12
 #define EMPTY_SQUARE 0
+#define NULL_SQUARE 70
+#define NULL_VAL 863 /* unlikely to encounter */
 #define WHITE_TURN 1
 #define BLACK_TURN 0
 
