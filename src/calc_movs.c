@@ -7,7 +7,6 @@
 #include "evaluate.h"
 #include "mutuals.h"
 
-static int squareval(int row, int column);
 static void add_possible_move(int* psbmoves, int* board, int* psbcounter, int sq1, int sq2row, int sq2column, int turn);
 
 void calculate_moves (int* board, int* psbmoves, int turn) {
@@ -335,7 +334,7 @@ int is_overflow (int row, int column) {
     else return 1;
 }
 
-static int squareval (int row, int column) {
+int squareval (int row, int column) {
     int returnval;
 
     if (is_overflow(row, column)) returnval = NULL_SQUARE;
