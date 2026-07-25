@@ -2,8 +2,8 @@ ____________________________________________________________
 This is the backend version of Feyce that works in terminal.
 
 Initialization steps:
-1. Compile the project
-2. Open your terminal (bash, powershell, cmd etc.), make it point to the folder in which you downloaded the executable.
+1. Compile the project.
+2. Open your terminal (bash, powershell, cmd etc.), make it point to the folder in which you compiled the executable.
 3. Usage: ./Feyce < FEN Code > < Depth > (omit ./ on cmd)
 ____________________________________________________________
 
